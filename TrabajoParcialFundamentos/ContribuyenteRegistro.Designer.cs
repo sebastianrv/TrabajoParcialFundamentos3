@@ -40,7 +40,7 @@
             this.cmBoxMunicipalidad = new System.Windows.Forms.ComboBox();
             this.pctBoxMunicipalidad = new System.Windows.Forms.PictureBox();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblgenerarcontra = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pctBoxMunicipalidad)).BeginInit();
             this.SuspendLayout();
             // 
@@ -158,16 +158,16 @@
             this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // label4
+            // lblgenerarcontra
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(215, 253);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 19);
-            this.label4.TabIndex = 18;
-            this.label4.Text = "D.N.I:";
+            this.lblgenerarcontra.AutoSize = true;
+            this.lblgenerarcontra.BackColor = System.Drawing.Color.Transparent;
+            this.lblgenerarcontra.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblgenerarcontra.Location = new System.Drawing.Point(38, 474);
+            this.lblgenerarcontra.Name = "lblgenerarcontra";
+            this.lblgenerarcontra.Size = new System.Drawing.Size(138, 19);
+            this.lblgenerarcontra.TabIndex = 18;
+            this.lblgenerarcontra.Text = "Generar contra:";
             // 
             // ContribuyenteRegistro
             // 
@@ -176,7 +176,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(627, 705);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lblgenerarcontra);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.pctBoxMunicipalidad);
             this.Controls.Add(this.cmBoxMunicipalidad);
@@ -214,6 +214,6 @@
         private System.Windows.Forms.PictureBox pctBoxMunicipalidad;
         private System.Windows.Forms.Button btnSalir;
         public System.Windows.Forms.TextBox txboxDNI;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblgenerarcontra;
     }
 }
